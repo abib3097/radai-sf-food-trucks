@@ -1,5 +1,7 @@
 # Environment
 .env
+.env.local
+.env.*.local
 
 # Python
 __pycache__/
@@ -13,6 +15,10 @@ venv/
 node_modules/
 dist/
 .vite/
+*.tsbuildinfo
 
 # OS
 .DS_Store
+
+# Dataset — download instructions in README
+backend/app/data/food_trucks.csv
