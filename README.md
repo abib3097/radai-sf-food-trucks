@@ -70,6 +70,19 @@ Swagger docs at: `http://localhost:8000/docs`
 
 ---
 
+**Frontend**
+- Requires Node.js 18+
+ 
+```bash
+cd frontend
+cp .env.example .env.local
+npm install
+npm run dev
+```
+Frontend available at: `http://localhost:5173`
+ 
+---
+
 ## Running Tests
 ```bash
 cd backend
