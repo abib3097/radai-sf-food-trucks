@@ -1,3 +1,4 @@
+//Should match the backend object associated to FoodTruck
 export interface FoodTruck {
   location_id: string | null;
   applicant: string | null;
